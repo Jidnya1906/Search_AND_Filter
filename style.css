@@ -1,0 +1,61 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: none;
+    outline: none;
+    border: none;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    background: #fdffff;
+    padding: 4rem 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main form input{
+    width: 220px;
+    height: 60px;
+    margin: 0 10px;
+    padding : 0 8px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    background: #f8f8f8;
+}
+
+main form input[type = "submit"]
+{
+    width: 10rem;
+    cursor:pointer;
+    color: #fff;
+    background: #7fad39;
+}
+
+main .container{
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.fruitImg{
+    background: #fff;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.fruitImg img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
